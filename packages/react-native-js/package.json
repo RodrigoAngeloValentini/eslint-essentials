@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/react-native-js",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.1",
   "description": "ESLINT Config for React Native without Typescript",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,5 @@
     "eslint-plugin-react-native": "^4.1.0",
     "prettier": "^3.3.2"
   },
-  "gitHead": "fe90292662059edbe78f504d5bd11d8ac3ff6a2b"
+  "gitHead": "3e2db4b89526fcc8ddadd888a0ce5c84a4853d5d"
 }

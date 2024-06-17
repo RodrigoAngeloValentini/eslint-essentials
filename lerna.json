@@ -1,4 +1,27 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "1.0.2-alpha.0"
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "npm",
+  "version": "independent",
+  "command": {
+    "publish": {
+      "graphType": "all",
+      "syncWorkspaceLock": true,
+      "allowBranch": "main",
+      "allowPeerDependenciesUpdate": true,
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "changelogIncludeCommitsClientLogin": " - by @%l",
+      "message": "chore: publish",
+      "preId": "alpha",
+      "preDistTag": "next",
+      "ignoreChanges": [
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md",
+        "**/example/**"
+      ]
+    }
+  }
 }
