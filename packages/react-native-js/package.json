@@ -1,6 +1,6 @@
 {
   "name": "react-native-js",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "ESLINT config for React Native without Typescript",
   "main": "index.js",
   "scripts": {
