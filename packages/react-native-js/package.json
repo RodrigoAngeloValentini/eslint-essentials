@@ -1,13 +1,17 @@
 {
-  "name": "react-native-js",
+  "name": "@eslint-essentials/react-native-js",
   "version": "1.0.1-alpha.0",
-  "description": "ESLINT config for React Native without Typescript",
+  "description": "ESLINT Config for React Native without Typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["eslint", "prettier"],
+  "author": "Rodrigo Angelo Valentini <rodrigoangelovalentini@hotmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.0.0",
     "prettier": "^3.0.0"
@@ -24,5 +28,6 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-native": "^4.1.0",
     "prettier": "^3.3.2"
-  }
+  },
+  "gitHead": "fe90292662059edbe78f504d5bd11d8ac3ff6a2b"
 }
