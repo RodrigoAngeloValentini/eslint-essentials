@@ -7,13 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "eslint",
     "prettier"
   ],
   "author": "Rodrigo Angelo Valentini <rodrigoangelovalentini@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoAngeloValentini/eslint-essentials.git",
+    "directory": "packages/react-native-ts"
+  },
   "license": "MIT",
-  "gitHead": "3e2db4b89526fcc8ddadd888a0ce5c84a4853d5d"
+  "gitHead": "d8da6d96d0b1277b53a14373fbbb929bc2bc3a04"
 }

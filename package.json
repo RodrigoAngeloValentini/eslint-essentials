@@ -1,7 +1,6 @@
 {
-  "name": "eslint-essentials",
-  "version": "1.0.1",
-  "description": "",
+  "private": true,
+  "description": "Eslint Config for React Native",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,7 +10,7 @@
     "release": "run-s build publish"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": ["eslint", "prettier"],
   "author": "Rodrigo Angelo Valentini <rodrigoangelovalentini@hotmail.com>",
