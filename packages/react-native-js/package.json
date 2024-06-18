@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/react-native-js",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "ESLINT Config for React Native without Typescript",
   "main": "index.js",
   "scripts": {
