@@ -27,6 +27,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "import/no-unresolved": "error",
     "react/self-closing-comp": "error",
     "react/no-unknown-property": "error",
     "react/jsx-wrap-multilines": "off",
@@ -46,10 +47,16 @@ module.exports = {
     react: {
       version: "detect",
     },
-    "import/extensions": [".js", ".jsx"],
     "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx"],
+      "import/resolver": {
+        node: {
+          extensions: [".mjs", ".js", ".json"],
+        },
+      },
+      "import/extensions": [".js", ".mjs", ".jsx"],
+      "babel-plugin-root-import": {
+        rootPathPrefix: "~",
+        rootPathSuffix: "src",
       },
     },
   },
