@@ -47,13 +47,11 @@ module.exports = {
     react: {
       version: "detect",
     },
+    "import/extensions": [".js", ".mjs", ".jsx"],
     "import/resolver": {
-      "import/resolver": {
-        node: {
-          extensions: [".mjs", ".js", ".json"],
-        },
+      node: {
+        extensions: [".mjs", ".js", ".json"],
       },
-      "import/extensions": [".js", ".mjs", ".jsx"],
       "babel-plugin-root-import": {
         rootPathPrefix: "~",
         rootPathSuffix: "src",
