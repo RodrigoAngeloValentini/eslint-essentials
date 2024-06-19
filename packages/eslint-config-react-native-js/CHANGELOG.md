@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-06-19)
+
+### Bug Fixes
+
+* prefix packages with eslint-config ([60aeba0](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/60aeba091a91b88440dea35563fd115ed9ae3602)) - by @
+
 # [1.3.0](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/react-native-js@1.1.0...@eslint-essentials/react-native-js@1.3.0) (2024-06-19)
 
 ### Bug Fixes
