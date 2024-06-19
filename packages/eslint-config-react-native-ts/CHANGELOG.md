@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-native-ts@2.0.0...@eslint-essentials/eslint-config-react-native-ts@2.0.1) (2024-06-19)
+
+**Note:** Version bump only for package @eslint-essentials/eslint-config-react-native-ts
+
 # 2.0.0 (2024-06-19)
 
 ### Bug Fixes
