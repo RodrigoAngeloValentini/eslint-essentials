@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/react-native-ts@1.1.0...@eslint-essentials/react-native-ts@1.3.0) (2024-06-19)
+
+### Bug Fixes
+
+* remove dependecy ([5a5b5c8](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/5a5b5c865aca34ae7ca2b208305d4d785fb4cb64)) - by @
+
+### Features
+
+* add eslint rules ([8d9030b](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/8d9030b59bde6cc79411bf0d4f744e6af84fc533)) - by @
+
 # [1.2.0](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/react-native-ts@1.1.0...@eslint-essentials/react-native-ts@1.2.0) (2024-06-19)
 
 ### Features
