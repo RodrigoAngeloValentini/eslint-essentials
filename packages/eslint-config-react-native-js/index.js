@@ -30,7 +30,7 @@ module.exports = {
     "react/self-closing-comp": "error",
     "react/no-unknown-property": "error",
     "react/jsx-wrap-multilines": "off",
-    "react/prop-types": "1",
+    "react/prop-types": "warn",
     "prettier/prettier": "error",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
@@ -50,10 +50,6 @@ module.exports = {
     "import/resolver": {
       node: {
         extensions: [".js", ".jsx"],
-      },
-      [require.resolve("babel-plugin-root-import")]: {
-        rootPathSuffix: "src",
-        rootPathPrefix: "~/",
       },
     },
   },
