@@ -1,8 +1,7 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   env: {
-    browser: false,
-    es6: true,
+    es2021: true,
     jest: true,
   },
   plugins: [
@@ -34,6 +33,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "import/no-unresolved": "error",
     "react/self-closing-comp": "error",
     "react/no-unknown-property": "error",
     "react/jsx-wrap-multilines": "off",

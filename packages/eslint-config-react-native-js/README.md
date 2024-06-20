@@ -1,7 +1,5 @@
 # ESLint Essentials
 
-# 🚧 🚧 🚧 Under Construction 🚧 🚧 🚧
-
 ## Whats included?
 
 - Standard config base;

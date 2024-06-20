@@ -10,18 +10,18 @@
 
 ## Setup
 
-### React Native (with Typescript)
+### Node (with Typescript)
 
 Install dependencies:
 
 ```
-npm i -D eslint @eslint-essentials/eslint-config-react-native-ts
+npm i -D eslint @eslint-essentials/eslint-config-node-ts
 ```
 
 Inside `.eslintrc.json`
 
 ```
 {
-  "extends": "@eslint-essentials/eslint-config-react-native-ts"
+  "extends": "@eslint-essentials/eslint-config-node-ts"
 }
 ```
