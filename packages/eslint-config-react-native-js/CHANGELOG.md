@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-native-js@2.0.3...@eslint-essentials/eslint-config-react-native-js@2.1.0) (2024-06-20)
+
+### Features
+
+* add packages for node and react ([8a187f2](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/8a187f2ec5cb8888011bc655f6ff4839a2b173a8)) - by @
+
 ## [2.0.3](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-native-js@2.0.2...@eslint-essentials/eslint-config-react-native-js@2.0.3) (2024-06-19)
 
 ### Bug Fixes

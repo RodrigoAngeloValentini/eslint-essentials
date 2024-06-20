@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-react-ts",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "ESLINT Config for React with Typescript",
   "main": "index.js",
   "scripts": {
@@ -38,8 +38,8 @@
     "@typescript-eslint/parser": "7.11.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0",
     "eslint-config-react-app": "7.0.1",
+    "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
