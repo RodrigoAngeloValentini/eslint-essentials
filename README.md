@@ -1,7 +1,5 @@
 # ESLint Essentials
 
-# 🚧 🚧 🚧 Under Construction 🚧 🚧 🚧
-
 ## Whats included?
 
 - Standard config base;
@@ -12,17 +10,33 @@
 
 ## Setup
 
+### Node (with Typescript)
+
+Install dependencies:
+
+```cmd
+npm i -D eslint @eslint-essentials/eslint-config-node-ts
+```
+
+Inside `.eslintrc`
+
+```json
+{
+  "extends": "@eslint-essentials/eslint-config-node-ts"
+}
+```
+
 ### React Native (without Typescript)
 
 Install dependencies:
 
-```
+```cmd
 npm i -D eslint @eslint-essentials/eslint-config-react-native-js
 ```
 
-Inside `.eslintrc.json`
+Inside `.eslintrc`
 
-```
+```json
 {
   "extends": "@eslint-essentials/eslint-config-react-native-js"
 }
@@ -32,14 +46,46 @@ Inside `.eslintrc.json`
 
 Install dependencies:
 
-```
+```cmd
 npm i -D eslint @eslint-essentials/eslint-config-react-native-ts
 ```
 
-Inside `.eslintrc.json`
+Inside `.eslintrc`
 
-```
+```json
 {
   "extends": "@eslint-essentials/eslint-config-react-native-ts"
+}
+```
+
+### React (without Typescript)
+
+Install dependencies:
+
+```cmd
+npm i -D eslint @eslint-essentials/eslint-config-react-js
+```
+
+Inside `.eslintrc`
+
+```json
+{
+  "extends": "@eslint-essentials/eslint-config-react-js"
+}
+```
+
+### React (with Typescript)
+
+Install dependencies:
+
+```cmd
+npm i -D eslint @eslint-essentials/eslint-config-react-ts
+```
+
+Inside `.eslintrc`
+
+```json
+{
+  "extends": "@eslint-essentials/eslint-config-react-ts"
 }
 ```

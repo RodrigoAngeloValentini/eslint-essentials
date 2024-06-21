@@ -1,59 +1,61 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   env: {
     es2021: true,
     node: true,
     jest: true,
   },
   plugins: [
-    "standard",
-    "import",
-    "@typescript-eslint",
-    "prettier",
-    "plugin:prettier/recommended",
-    "eslint-plugin-import-helpers",
+    'standard',
+    'import',
+    '@typescript-eslint',
+    'prettier',
+    'plugin:prettier/recommended',
+    'eslint-plugin-import-helpers',
   ],
-  ignorePatterns: ["**/dist/*.js"],
+  ignorePatterns: ['**/dist/*.js'],
   extends: [
-    "standard",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    'standard',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "prettier/prettier": "error",
-    "import/no-unresolved": "error",
-    "@typescript-eslint/naming-convention": [
-      "error",
+    'prettier/prettier': 'error',
+    'import/no-unresolved': 'error',
+    '@typescript-eslint/naming-convention': [
+      'error',
       {
-        selector: "interface",
-        format: ["PascalCase"],
+        selector: 'interface',
+        format: ['PascalCase'],
         custom: {
-          regex: "^I[A-Z]",
+          regex: '^I[A-Z]',
           match: true,
         },
       },
     ],
-    "import-helpers/order-imports": [
-      "warn",
+    'import-helpers/order-imports': [
+      'warn',
       {
-        newlinesBetween: "always",
-        groups: ["module", "/^@/", ["parent", "sibling", "index"]],
-        alphabetize: { order: "asc", ignoreCase: true },
+        newlinesBetween: 'always',
+        groups: ['module', '/^@/', ['parent', 'sibling', 'index']],
+        alphabetize: {order: 'asc', ignoreCase: true},
       },
     ],
+    'no-console': 'warn',
+    'no-alert': 'warn',
   },
   settings: {
-    "import/parsers": {
-      [require.resolve("@typescript-eslint/parser")]: [".js", ".ts", ".d.ts"],
+    'import/parsers': {
+      [require.resolve('@typescript-eslint/parser')]: ['.js', '.ts', '.d.ts'],
     },
-    "import/resolver": {
+    'import/resolver': {
       typescript: {},
       node: {
-        extensions: [".js", ".ts"],
+        extensions: ['.js', '.ts'],
       },
     },
   },

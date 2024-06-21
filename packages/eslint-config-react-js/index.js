@@ -1,16 +1,15 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: '@babel/eslint-parser',
   env: {
     browser: true,
     es2021: true,
     jest: true,
   },
-  plugins: ['react', 'jsx-a11y', 'prettier', '@typescript-eslint'],
+  plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'standard',
-    'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:prettier/recommended',
   ],
@@ -21,18 +20,17 @@ module.exports = {
   },
   parserOptions: {
     ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-      impliedStrict: true,
       jsx: true,
     },
     ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
     'import/no-unresolved': 'error',
     'react/self-closing-comp': 'error',
     'react/no-unknown-property': 'error',
     'react/jsx-wrap-multilines': 'off',
-    'react/prop-types': 'off',
+    'react/prop-types': 'warn',
     'prettier/prettier': 'error',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -50,11 +48,12 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'import/parsers': {
-      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
-    },
+    'import/extensions': ['.js', '.mjs', '.jsx'],
     'import/resolver': {
-      typescript: {},
+      node: {
+        paths: ['src'],
+        extensions: ['.mjs', '.js', '.json'],
+      },
     },
   },
   ignorePatterns: ['node_modules'],
