@@ -19,6 +19,10 @@ module.exports = {
     __DEV__: true,
   },
   parserOptions: {
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
     ecmaFeatures: {
       jsx: true,
     },
