@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-ts@2.2.0...@eslint-essentials/eslint-config-react-ts@2.2.1) (2024-06-24)
+
+### Bug Fixes
+
+* reduce typescript compatibility version ([6facbc7](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/6facbc76b053ad982f5d662a41c14dff8f7b8fff)) - by @
+
 # [2.2.0](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-ts@2.1.0...@eslint-essentials/eslint-config-react-ts@2.2.0) (2024-06-21)
 
 ### Features
