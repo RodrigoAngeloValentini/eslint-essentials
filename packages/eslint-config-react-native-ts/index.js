@@ -50,6 +50,7 @@ module.exports = {
     ],
     'no-console': 'warn',
     'no-alert': 'warn',
+    'react-native/no-raw-text': ['error', {skip: '/Text$/'}],
   },
   settings: {
     react: {
