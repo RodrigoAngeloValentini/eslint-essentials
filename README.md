@@ -2,8 +2,10 @@
 
 ## Whats included?
 
+- Eslint 8
 - Standard config base;
 - React plugin;
+- React native plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
 - Prettier;

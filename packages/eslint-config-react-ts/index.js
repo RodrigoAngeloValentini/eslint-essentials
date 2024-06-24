@@ -28,6 +28,7 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    'react/self-closing-comp': 'error',
     'import/no-unresolved': 'error',
     'react/self-closing-comp': 'error',
     'react/no-unknown-property': 'error',

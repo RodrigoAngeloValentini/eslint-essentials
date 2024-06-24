@@ -6,7 +6,6 @@ module.exports = {
     jest: true,
   },
   plugins: [
-    'standard',
     'import',
     '@typescript-eslint',
     'prettier',
