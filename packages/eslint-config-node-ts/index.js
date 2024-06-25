@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   parser: '@typescript-eslint/parser',
   env: {
     es2021: true,
@@ -9,13 +10,13 @@ module.exports = {
     'import',
     '@typescript-eslint',
     'prettier',
-    'plugin:prettier/recommended',
     'eslint-plugin-import-helpers',
   ],
   ignorePatterns: ['**/dist/*.js'],
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
     'plugin:prettier/recommended',
   ],
   parserOptions: {
@@ -58,4 +59,5 @@ module.exports = {
       },
     },
   },
+  ignorePatterns: ['node_modules'],
 };
