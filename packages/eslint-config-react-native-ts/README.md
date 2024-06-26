@@ -14,13 +14,13 @@
 
 Install dependencies:
 
-```
+```cmd
 npm i -D eslint @eslint-essentials/eslint-config-react-native-ts
 ```
 
 Inside `.eslintrc.json`
 
-```
+```json
 {
   "extends": "@eslint-essentials/eslint-config-react-native-ts"
 }

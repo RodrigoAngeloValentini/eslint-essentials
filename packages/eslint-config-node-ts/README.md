@@ -14,13 +14,13 @@
 
 Install dependencies:
 
-```
+```cmd
 npm i -D eslint @eslint-essentials/eslint-config-node-ts
 ```
 
 Inside `.eslintrc.json`
 
-```
+```json
 {
   "extends": "@eslint-essentials/eslint-config-node-ts"
 }

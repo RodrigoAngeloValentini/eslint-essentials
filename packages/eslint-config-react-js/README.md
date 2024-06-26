@@ -14,13 +14,13 @@
 
 Install dependencies:
 
-```
+```cmd
 npm i -D eslint @eslint-essentials/eslint-config-react-js
 ```
 
 Inside `.eslintrc.json`
 
-```
+```json
 {
   "extends": "@eslint-essentials/eslint-config-react-js"
 }
