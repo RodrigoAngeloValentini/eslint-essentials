@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-react-ts",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "ESLINT Config for React with Typescript",
   "main": "index.js",
   "scripts": {
