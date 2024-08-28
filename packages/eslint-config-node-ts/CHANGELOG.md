@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.5](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-node-ts@2.2.4...@eslint-essentials/eslint-config-node-ts@2.2.5) (2024-08-28)
+
+**Note:** Version bump only for package @eslint-essentials/eslint-config-node-ts
+
 ## [2.2.4](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-node-ts@2.2.3...@eslint-essentials/eslint-config-node-ts@2.2.4) (2024-08-05)
 
 ### Bug Fixes
