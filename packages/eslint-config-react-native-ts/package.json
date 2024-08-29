@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-react-native-ts",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "ESLINT Config for React Native with Typescript",
   "main": "index.js",
   "scripts": {
