@@ -132,3 +132,19 @@ Inside `.eslintrc`
   "extends": "@eslint-essentials/eslint-config-react-ts"
 }
 ```
+
+### Next (with Typescript)
+
+Install dependencies:
+
+```cmd
+npm i -D eslint @eslint-essentials/eslint-config-next-ts
+```
+
+Inside `.eslintrc`
+
+```json
+{
+  "extends": "@eslint-essentials/eslint-config-next-ts"
+}
+```
