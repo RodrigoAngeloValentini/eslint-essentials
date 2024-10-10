@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-node-ts",
-  "version": "2.2.5",
+  "version": "2.3.0",
   "description": "ESLINT Config for Node with Typescript",
   "main": "index.js",
   "scripts": {
