@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-react-native-ts",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "ESLINT Config for React Native with Typescript",
   "main": "index.js",
   "scripts": {
@@ -35,8 +35,8 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
-    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-import-resolver-babel-module": "^5.3.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-n": "^17.23.2",
