@@ -18,7 +18,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
     'plugin:prettier/recommended',
   ],
   globals: {
@@ -40,15 +39,12 @@ module.exports = {
     'react/jsx-wrap-multilines': 'off',
     'react/prop-types': 'off',
     'prettier/prettier': 'error',
+    'react-native/no-inline-styles': 'warn',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
     'no-multiple-empty-lines': 'error',
     'prefer-promise-reject-errors': 'off',
     'react/display-name': 'off',
-    'no-use-before-define': [
-      'error',
-      {functions: true, classes: true, variables: true},
-    ],
     'no-console': 'warn',
     'no-alert': 'warn',
 
@@ -71,14 +67,17 @@ module.exports = {
     'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'off',
-    'no-use-before-define': [
+    'no-use-before-define': 'warn',
+    '@typescript-eslint/no-use-before-define': [
       'error',
-      {functions: true, classes: true, variables: true},
+      {functions: false, classes: true, variables: true},
     ],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
 
     'import/order': [
       'error',
@@ -126,7 +125,13 @@ module.exports = {
       ],
     },
     'import/resolver': {
-      typescript: {},
+      'babel-module': {
+        root: ['./src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        alias: {
+          '~': './src',
+        },
+      },
     },
   },
   ignorePatterns: ['node_modules'],
