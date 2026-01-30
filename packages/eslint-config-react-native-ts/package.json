@@ -1,6 +1,6 @@
 {
   "name": "@eslint-essentials/eslint-config-react-native-ts",
-  "version": "2.4.5",
+  "version": "2.4.6",
   "description": "ESLINT Config for React Native with Typescript",
   "main": "index.js",
   "scripts": {
@@ -47,5 +47,5 @@
     "eslint-plugin-react-native": "^5.0.0",
     "prettier": "^3.8.1"
   },
-  "gitHead": "e9439b79815a9a93212ff09dd6e5fb999e8e2955"
+  "gitHead": "b9fc37d20dbfc35d74615108c7af3f4f316be776"
 }
