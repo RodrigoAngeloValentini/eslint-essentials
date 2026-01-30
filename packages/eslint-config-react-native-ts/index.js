@@ -125,6 +125,7 @@ module.exports = {
       ],
     },
     'import/resolver': {
+      'typescript': {},
       'babel-module': {
         root: ['./src'],
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
