@@ -79,7 +79,13 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-require-imports': 'off',
-
+    '@typescript-eslint/no-empty-object-type': [
+      'error',
+      {
+        allowInterfaces: true,
+      },
+    ],
+    'react-hooks/set-state-in-effect': 'warn',
     'import/order': [
       'error',
       {
