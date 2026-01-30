@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.8](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-native-ts@2.4.7...@eslint-essentials/eslint-config-react-native-ts@2.4.8) (2026-01-30)
+
+### Bug Fixes
+
+* update import resolver ([ff4f839](https://github.com/RodrigoAngeloValentini/eslint-essentials/commit/ff4f839ba2e5d3840591692883f9006f7b732538)) - by @
+
 ## [2.4.7](https://github.com/RodrigoAngeloValentini/eslint-essentials/compare/@eslint-essentials/eslint-config-react-native-ts@2.4.5...@eslint-essentials/eslint-config-react-native-ts@2.4.7) (2026-01-30)
 
 **Note:** Version bump only for package @eslint-essentials/eslint-config-react-native-ts
